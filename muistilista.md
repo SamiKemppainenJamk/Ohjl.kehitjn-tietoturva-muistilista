@@ -1,6 +1,6 @@
-## Ohjelmistokehittäjän tietoturva muistilista
+# Ohjelmistokehittäjän tietoturva muistilista
 
-# Suunnittelu
+## Suunnittelu
 - Security by design (uhkamallinnus) STRIDE 
 + (S)poofing 
 + (T)ampering
@@ -10,12 +10,12 @@
 + (E)levation of Privilige
 - Least privilege kaikille (lisätään oikeuksia tarpeen vaatiessa)
 
-# Autentikointi ja oikeudet
+## Autentikointi ja oikeudet
 - Käytä olemassa olevia testattuja ja laajasti käytössä olevia kirjautumis- ja token-järjestelmiä
 - Käytä salasanojen hashausta (Esim. Argon 2)
 - MFA oletuksena aina kun mahdollista
 
-# Syötteet ja hyökkäykset
+## Syötteet ja hyökkäykset
 - Kaikki ulkoinen data lähtökohtaoletuksena epäluotettavaa
     → Käyttäjien syöttämä data
     → URL-parametrit, query-stringit
@@ -25,12 +25,12 @@
     → Käyttäjän lataamat tiedostot
     → Sähköpostiliitteet
 
-# Secrets
+## Secrets
 - TSL kaikkialla (sisäinen liikenne mukaanlukien)
 - Secrettien kanssa vain Secret Manager / Vault
 - Avainten säännöllinen rotaatio
 
-# Data ja yksityisyys
+## Data ja yksityisyys
 - Kerää vain pakollinen data
 - Salaus levossa ja varmuuskopioinnissa
 - Henkilötietojen pseudonymisointi 
@@ -38,7 +38,7 @@
 - GDPR: poisto, minimointi, audit trail
 - Ei henkilötietoja lokiin
 
-# Tiimi ja prosessit
+## Tiimi ja prosessit
 - Code review aina 
 - Dokumentoidut käytännöt
 - Säännölliset tietoturvakoulutukset
