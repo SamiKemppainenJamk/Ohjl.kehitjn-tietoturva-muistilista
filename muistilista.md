@@ -17,13 +17,13 @@
 
 ## Syötteet ja hyökkäykset
 - Kaikki ulkoinen data lähtökohtaoletuksena epäluotettavaa
-    → Käyttäjien syöttämä data
-    → URL-parametrit, query-stringit
-    → HTTP-headerit (User-Agent, Referer)
-    → Cookie-arvot, session-id:t
+-   → Käyttäjien syöttämä data
+-   → URL-parametrit, query-stringit
+-   → HTTP-headerit (User-Agent, Referer)
+-   → Cookie-arvot, session-id:t
 - Tiedostot ja uploadit
-    → Käyttäjän lataamat tiedostot
-    → Sähköpostiliitteet
+-   → Käyttäjän lataamat tiedostot
+-   → Sähköpostiliitteet
 
 ## Secrets
 - TSL kaikkialla (sisäinen liikenne mukaanlukien)
